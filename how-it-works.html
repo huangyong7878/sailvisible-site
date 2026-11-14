@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How AI Search Recommends Products — SailVisible</title>
+<meta name="description" content="How a product gets recommended by AI search: the two layers — what the model remembers and what it looks up — and a step-by-step walk-through of a 'find me a BBQ grill' query.">
+<link rel="canonical" href="https://sailvisible.com/how-it-works.html">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M17 3 L28 27 L17 27 Z' fill='%23e8590c'/%3E%3Cpath d='M15 8 L15 27 L5 27 Z' fill='%230a2540'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://sailvisible.com/#org",
+  "name": "SailVisible",
+  "url": "https://sailvisible.com/",
+  "slogan": "Set sail. Get seen by AI.",
+  "description": "SailVisible is a generative engine optimization (GEO) agency. We help Chinese manufacturers and traditional brands go global — showing up when overseas buyers ask AI search — ChatGPT, Perplexity, and Google AI Overviews — for product recommendations.",
+  "email": "hello@sailvisible.com",
+  "sameAs": [],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "hello@sailvisible.com",
+    "contactType": "sales",
+    "availableLanguage": "English"
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="SailVisible — home"><span class="logo-mark" aria-hidden="true"></span>SailVisible</a>
+    <nav aria-label="Main navigation">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="how-it-works.html" aria-current="page">How it works</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <h1>How AI search recommends a product</h1>
+      <p class="lead">The short version: it searches the web first, then answers. A product gets recommended only if the search finds it, reads it, and judges it useful.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Two layers</h2>
+      <p>When you ask an AI for a product, the answer draws on two sources. Knowing the difference is the whole job.</p>
+      <h3>Layer 1 — what the model remembers</h3>
+      <p>The model was trained on vast amounts of text from the public web. From that training it “remembers” the big names: the brands that appear in thousands of pages. A specific product from a smaller brand is almost never in there. You cannot pay to be remembered, and a new training run takes months. For a niche product, this layer is out of reach — and that is normal.</p>
+      <h3>Layer 2 — what the model looks up</h3>
+      <p>For product questions, the AI runs a live search. It queries its search indexes, opens the pages it finds, reads them, and writes an answer with citations. This is the layer that decides product recommendations — and it is the layer we work on. It responds to changes in days and weeks, not months.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="example">
+    <div class="container">
+      <h2>Walk-through: “Find me a BBQ grill”</h2>
+      <p>Here is what actually happens, step by step, when someone asks ChatGPT for a BBQ grill.</p>
+      <ol class="steps">
+        <li><strong>You ask.</strong> “Find me a BBQ grill for a small balcony, under $300.”</li>
+        <li><strong>The AI rewrites your question.</strong> It turns one question into several search queries — something like “best small BBQ grill 2026,” “compact BBQ grill balcony,” and “BBQ grill under $300 comparison.”</li>
+        <li><strong>It searches.</strong> Those queries go to its search indexes — Bing’s index, and the index built by OpenAI’s own crawler, OAI-SearchBot. If your site is not in those indexes, the search never sees it.</li>
+        <li><strong>It reads the top pages.</strong> It opens the pages the search returns and reads the full text: prices, specs, reviews, comparisons, FAQ sections, and structured data.</li>
+        <li><strong>It writes an answer.</strong> A short list of grills, with links to its sources. A grill is recommended only if its pages were found, read, and judged useful.</li>
+      </ol>
+      <p>A grill with no pages, no prices, and no reviews in the index cannot be picked — however good the grill is. That is the problem we fix.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>What makes a product get picked</h2>
+      <p>Five conditions, roughly in order:</p>
+      <ol class="numbered">
+        <li><strong>It is in the index.</strong> The site must be in the indexes AI search draws on — Bing’s index for ChatGPT, Google’s for AI Overviews — and must not block the AI crawlers in its robots.txt.</li>
+        <li><strong>It ranks near the top.</strong> Retrieval only looks at a handful of pages. Industry studies have found that most ChatGPT citations come from the top results in Bing. Being on page three is close to not existing.</li>
+        <li><strong>The information is machine-readable.</strong> Price, specs, ratings, availability, and brand, stated plainly — ideally with Product structured data — in tables and short paragraphs an AI can quote.</li>
+        <li><strong>Independent sources mention it.</strong> AI answers lean on review sites, comparison articles, and forums, because those sources let the answer compare. A brand’s own pages alone rarely carry a recommendation.</li>
+        <li><strong>The information is fresh.</strong> Product content that is months old is passed over in favor of pages that look current.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Honest boundaries</h2>
+      <p>Anyone selling this work should tell you these five things up front. We do.</p>
+      <ul class="boundaries">
+        <li><strong>Placement is not guaranteed.</strong> OpenAI says so itself. No service can promise a recommendation. What we do is raise the probability, measure it, and show you the numbers.</li>
+        <li><strong>A product nobody has heard of is not in the model’s memory.</strong> Only live retrieval can surface it. That is exactly what this work is for: getting findable pages, structured data, and independent mentions in place.</li>
+        <li><strong>Different platforms work differently.</strong> ChatGPT search draws heavily on Bing’s index, Google AI Overviews on Google’s, Perplexity on its own retrieval. Being visible in one is not being visible in all three.</li>
+        <li><strong>llms.txt is not a lever.</strong> It is a proposed file that lists a site’s important pages for AI systems. Google has said publicly that it ignores the file, and independent checks have found it is almost never requested. We do not charge for it and we do not count on it.</li>
+        <li><strong>Answers change between runs.</strong> The same question can produce different answers on different days. That is why we measure with a fixed prompt set, asked several times, and report mention and citation rates — not single screenshots.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section cta-band">
+    <div class="container">
+      <h2>Want to know where your brand stands?</h2>
+      <p>Start with an audit. We measure first, then tell you what we can and cannot do.</p>
+      <p><a class="btn" href="mailto:hello@sailvisible.com?subject=AI%20visibility%20audit%20request">hello@sailvisible.com</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p><strong>SailVisible</strong> — Set sail. Get seen by AI.</p>
+    <nav aria-label="Footer navigation">
+      <ul class="nav footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="how-it-works.html">How it works</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <p class="fineprint">Contact: <a href="mailto:hello@sailvisible.com">hello@sailvisible.com</a></p>
+  </div>
+</footer>
+</body>
+</html>

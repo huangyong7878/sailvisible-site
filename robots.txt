@@ -1,0 +1,29 @@
+# SailVisible robots.txt
+# All crawlers are welcome, including AI crawlers. We want our pages
+# to be found, read, and cited by AI search.
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://sailvisible.com/sitemap.xml
