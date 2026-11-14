@@ -32,10 +32,10 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="index.html" aria-label="SailVisible — home"><span class="logo-mark" aria-hidden="true"></span>SailVisible</a>
+    <a class="logo" href="/" aria-label="SailVisible — home"><span class="logo-mark" aria-hidden="true"></span>SailVisible</a>
     <nav aria-label="Main navigation">
       <ul class="nav">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="how-it-works.html" aria-current="page">How it works</a></li>
         <li><a href="faq.html">FAQ</a></li>
@@ -60,14 +60,14 @@
       <h3>Layer 1 — what the model remembers</h3>
       <p>The model was trained on vast amounts of text from the public web. From that training it “remembers” the big names: the brands that appear in thousands of pages. A specific product from a smaller brand is almost never in there. You cannot pay to be remembered, and a new training run takes months. For a niche product, this layer is out of reach — and that is normal.</p>
       <h3>Layer 2 — what the model looks up</h3>
-      <p>For product questions, the AI runs a live search. It queries its search indexes, opens the pages it finds, reads them, and writes an answer with citations. This is the layer that decides product recommendations — and it is the layer we work on. It responds to changes in days and weeks, not months.</p>
+      <p>For product questions, the AI runs a live search. It queries its search indexes, opens the pages it finds, reads them, and writes an answer with citations. This is the layer that shapes product recommendations — and it is the layer we work on. It responds to changes in days and weeks, not months.</p>
     </div>
   </section>
 
   <section class="section section-alt" id="example">
     <div class="container">
       <h2>Walk-through: “Find me a BBQ grill”</h2>
-      <p>Here is what actually happens, step by step, when someone asks ChatGPT for a BBQ grill.</p>
+      <p>Here is an illustrated walk-through of how it typically works, step by step, when someone asks ChatGPT for a BBQ grill.</p>
       <ol class="steps">
         <li><strong>You ask.</strong> “Find me a BBQ grill for a small balcony, under $300.”</li>
         <li><strong>The AI rewrites your question.</strong> It turns one question into several search queries — something like “best small BBQ grill 2026,” “compact BBQ grill balcony,” and “BBQ grill under $300 comparison.”</li>
@@ -75,7 +75,7 @@
         <li><strong>It reads the top pages.</strong> It opens the pages the search returns and reads the full text: prices, specs, reviews, comparisons, FAQ sections, and structured data.</li>
         <li><strong>It writes an answer.</strong> A short list of grills, with links to its sources. A grill is recommended only if its pages were found, read, and judged useful.</li>
       </ol>
-      <p>A grill with no pages, no prices, and no reviews in the index cannot be picked — however good the grill is. That is the problem we fix.</p>
+      <p>A grill with no pages, no prices, and no reviews in the index is very unlikely to be picked — however good the grill is. That is the problem we fix.</p>
     </div>
   </section>
 
@@ -85,10 +85,10 @@
       <p>Five conditions, roughly in order:</p>
       <ol class="numbered">
         <li><strong>It is in the index.</strong> The site must be in the indexes AI search draws on — Bing’s index for ChatGPT, Google’s for AI Overviews — and must not block the AI crawlers in its robots.txt.</li>
-        <li><strong>It ranks near the top.</strong> Retrieval only looks at a handful of pages. Industry studies have found that most ChatGPT citations come from the top results in Bing. Being on page three is close to not existing.</li>
+        <li><strong>It ranks near the top.</strong> Retrieval only looks at a handful of pages. ChatGPT’s citations usually trace back to pages that rank near the top of Bing, the index its search draws on. Being on page three is close to not existing.</li>
         <li><strong>The information is machine-readable.</strong> Price, specs, ratings, availability, and brand, stated plainly — ideally with Product structured data — in tables and short paragraphs an AI can quote.</li>
         <li><strong>Independent sources mention it.</strong> AI answers lean on review sites, comparison articles, and forums, because those sources let the answer compare. A brand’s own pages alone rarely carry a recommendation.</li>
-        <li><strong>The information is fresh.</strong> Product content that is months old is passed over in favor of pages that look current.</li>
+        <li><strong>The information is fresh.</strong> Pages that look current tend to be preferred over product content that has gone stale.</li>
       </ol>
     </div>
   </section>
@@ -99,7 +99,7 @@
       <p>Anyone selling this work should tell you these five things up front. We do.</p>
       <ul class="boundaries">
         <li><strong>Placement is not guaranteed.</strong> OpenAI says so itself. No service can promise a recommendation. What we do is raise the probability, measure it, and show you the numbers.</li>
-        <li><strong>A product nobody has heard of is not in the model’s memory.</strong> Only live retrieval can surface it. That is exactly what this work is for: getting findable pages, structured data, and independent mentions in place.</li>
+        <li><strong>A product nobody has heard of is very unlikely to be in the model’s memory.</strong> Only live retrieval can surface it. That is exactly what this work is for: getting findable pages, structured data, and independent mentions in place.</li>
         <li><strong>Different platforms work differently.</strong> ChatGPT search draws heavily on Bing’s index, Google AI Overviews on Google’s, Perplexity on its own retrieval. Being visible in one is not being visible in all three.</li>
         <li><strong>llms.txt is not a lever.</strong> It is a proposed file that lists a site’s important pages for AI systems. Google has said publicly that it ignores the file, and independent checks have found it is almost never requested. We do not charge for it and we do not count on it.</li>
         <li><strong>Answers change between runs.</strong> The same question can produce different answers on different days. That is why we measure with a fixed prompt set, asked several times, and report mention and citation rates — not single screenshots.</li>
@@ -121,7 +121,7 @@
     <p><strong>SailVisible</strong> — Set sail. Get seen by AI.</p>
     <nav aria-label="Footer navigation">
       <ul class="nav footer-nav">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="how-it-works.html">How it works</a></li>
         <li><a href="faq.html">FAQ</a></li>
