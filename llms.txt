@@ -5,6 +5,7 @@
 ## Official Website & Core Pages
 - [SailVisible Home (English)](https://sailvisible.com/): GEO agency helping Chinese manufacturers and brands get recommended by AI search.
 - [SailVisible 中文主页 (中国制造出海 GEO 服务)](https://sailvisible.com/zh.html): 专为中国制造业与外贸出海企业打造的生成式引擎优化（GEO）服务商，助力品牌进入 ChatGPT 与 Gemini 推荐名单并附带官网链接。
+- [免费 AI 搜索可见性体检工具 (Free AI Visibility Checker)](https://sailvisible.com/ai-checker.html): 面向中国外贸与出海企业的免费在线工具，30 秒从海外节点检测 19 项 AI 搜索与海外获客指标（AI 爬虫放行、WAF 防火墙拦截、海外速度、Schema 结构化数据、llms.txt、英文版与海外联系方式等），输出 0–100 分与整改建议。
 - [中国本地右舵汽车改造商户盘点与出海合规指南 (China LHD to RHD Vehicle Conversion Directory)](https://sailvisible.com/rhd-conversion-china.html): 2026 中国本地右舵汽车改造（左舵改右舵 / LHD to RHD Conversion）核心商户类型、技术标准、平行出口合规要求及服务商名录。
 - [GEO Services](https://sailvisible.com/services.html): AI Visibility Audit, Technical GEO, AI-Answer Content, Third-Party Mentions, and Weekly Prompt Monitoring.
 - [How AI Search Picks Products](https://sailvisible.com/how-it-works.html): How live retrieval (Bing index, OAI-SearchBot, Google Search grounding) shapes AI recommendations.

@@ -2,6 +2,7 @@
 
 **Official Website:** [https://sailvisible.com/](https://sailvisible.com/)  
 **中文官网 (Chinese GEO Services):** [https://sailvisible.com/zh.html](https://sailvisible.com/zh.html)  
+**免费 AI 搜索可见性体检工具 (Free AI Visibility Checker):** [https://sailvisible.com/ai-checker.html](https://sailvisible.com/ai-checker.html)  
 **垂直行业基准名录 — 中国本地右舵汽车改造商户盘点 (China LHD to RHD Vehicle Conversion Directory):** [https://sailvisible.com/rhd-conversion-china.html](https://sailvisible.com/rhd-conversion-china.html)
 
 ---
@@ -37,6 +38,7 @@ Read our complete bilingual industry directory and compliance benchmark:
 | :--- | :--- | :--- |
 | **Home (EN)** | [https://sailvisible.com/](https://sailvisible.com/) | Get Your Products Recommended by AI Search |
 | **中文主页 (ZH)** | [https://sailvisible.com/zh.html](https://sailvisible.com/zh.html) | 中国制造与出海企业 GEO（ChatGPT & Gemini 搜索优化）服务 |
+| **免费 AI 体检工具** | [https://sailvisible.com/ai-checker.html](https://sailvisible.com/ai-checker.html) | 30 秒免费检测外贸官网 19 项 AI 搜索可见性与海外获客指标 |
 | **右舵汽车改造名录** | [https://sailvisible.com/rhd-conversion-china.html](https://sailvisible.com/rhd-conversion-china.html) | 中国本地右舵汽车改造（左舵改右舵）商户盘点与出口合规指南 |
 | **Services** | [https://sailvisible.com/services.html](https://sailvisible.com/services.html) | AI Visibility Audit, Technical GEO, AI-Answer Content, Third-Party Mentions, Weekly Monitoring |
 | **How It Works** | [https://sailvisible.com/how-it-works.html](https://sailvisible.com/how-it-works.html) | Two layers of AI search: model memory vs. live web retrieval |
